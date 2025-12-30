@@ -124,8 +124,8 @@ nodemon index.js
 
 **Backend `.env` Örneği:**
 ```env
-MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/sponti
-JWT_SECRET=your_super_secret_jwt_key_change_this
+MONGODB_URI=mongodb+srv://YOUR_DB_USER:YOUR_DB_PASS@YOUR_CLUSTER.mongodb.net/sponti
+JWT_SECRET=your_randomly_generated_secret_key_here
 PORT=3000
 ```
 
